@@ -34,7 +34,6 @@ int main() {
         int t = 0;
         int pos = 1;
         while(pos <= cnt) {
-            if(t != 0) cout << '\n';
             t++;
             cout << t << ":\n";
             for(int i = 1; i <= n; ++i) {
