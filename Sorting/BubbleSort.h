@@ -1,5 +1,5 @@
-#ifndef BUBBLESORT
-#define BUBBLESORT
+#ifndef BUBBLESORT_H
+#define BUBBLESORT_H
 template<typename T>
 void BubbleSort(T A[], int n) {
     for(int i = 0; i < n; ++i) {

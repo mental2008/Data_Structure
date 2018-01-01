@@ -1,5 +1,5 @@
-#ifndef SELECTIONSORT
-#define SELECTIONSORT
+#ifndef SELECTIONSORT_H
+#define SELECTIONSORT_H
 template<typename T>
 void SelectionSort(T A[], int n) {
     for(int i = 0; i < n; ++i) {

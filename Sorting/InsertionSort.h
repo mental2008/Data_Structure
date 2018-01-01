@@ -1,5 +1,5 @@
-#ifndef INSERTIONSORT
-#define INSERTIONSORT
+#ifndef INSERTIONSORT_H
+#define INSERTIONSORT_H
 template<typename T>
 void InsertionSort(T A[], int n) {
     for(int i = 1; i < n; ++i) {
