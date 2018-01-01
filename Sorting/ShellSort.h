@@ -13,7 +13,7 @@ void inssort2(T A[], int n, int incr) {
 
 template<typename T>
 void ShellSort(T A[], int n) {
-    for(int i = n / 2; i > 2; i /= 2) {
+    for(int i = n / 2; i >= 2; i /= 2) {
         for(int j = 0; j < i; ++j) {
             inssort2(&A[j], n - j, i);
         }
